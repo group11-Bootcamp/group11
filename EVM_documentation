@@ -1,0 +1,52 @@
+An EVM system to manage events, registrations and ticketing
+=====================================================================================================================
+1. Actor identification and their roles
+# Guest_User
+  --------
+  a. View available events
+  b. search events (according to criteria)
+  c. register for events 
+
+  #  Attendee
+  -----------
+  a. View available events
+  b. View event details
+  - View event agenda
+  - View registration deadline
+  c. choose event
+  d. Add event
+  e. View registered events
+  f. Buy event ticket (In the case of a paid event)
+  g. Download event ticket
+  h. View attendee list
+  i. communicate with other attendees
+  j. Cancel registration
+  - Switch event
+  - Request refund
+  k. Customization
+  l- customize app appearance
+  - choose language
+  - Change fonts
+
+ # Event Organizer
+ -----------------
+ a.  manage events
+ - Create and post event
+ - Delete event
+ - Update event
+ - Create event agenda
+ b. ticket pricing
+ c. manage registrations
+ - give group discounts
+ - Refund payment
+ d. Send email campaigns
+ e. View attendee list
+ f. Pay fees
+ - ticketing fees according to criteria
+ - Premium fees
+
+ # Payment processor
+ -------------------
+	 a. handles transactions																- Transaction processing
+  - Handles refunds and cancellation
+ b. Provides customer support
